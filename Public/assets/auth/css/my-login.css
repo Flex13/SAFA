@@ -1,0 +1,120 @@
+html,
+body {
+    height: 100%;
+}
+
+body.my-login-page {
+    background-color: #003A1C;
+    font-size: 14px;
+}
+
+.my-login-page .brand {
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 40px auto;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, .05); */
+    position: relative;
+    z-index: 1;
+}
+
+.my-login-page .brand img {
+    width: 100%;
+}
+
+.my-login-page .card-wrapper {
+    width: 500px;
+}
+
+.my-login-page .card {
+    border-color: transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .09);
+}
+
+.my-login-page .card.fat {
+    padding: 10px;
+}
+
+.my-login-page .card .card-title {
+    margin-bottom: 30px;
+}
+
+.my-login-page .form-control {
+    border-width: 2.3px;
+}
+
+.my-login-page .form-group label {
+    width: 100%;
+}
+
+.my-login-page .btn.btn-block {
+    padding: 12px 10px;
+}
+
+.my-login-page .footer {
+    margin: 40px 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: black;
+    color: #ffffff;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #003A1C;
+    border: none;
+}
+
+.error {
+    color: red;
+}
+
+button.hideShowPassword-toggle.hideShowPassword-toggle-show {
+    background-color: transparent;
+    border: none !important;
+    color: #a9a9a9;
+    margin-right: 15px;
+    position: initial !important;
+    right: 0px !important;
+    top: 0 !important;
+    margin-top: 0 !important;
+    display: block !important;
+}
+
+button.hideShowPassword-toggle.hideShowPassword-toggle-hide {
+    background-color: transparent;
+    border: none !important;
+    color: #090a07;
+    font-weight: 500;
+    margin-right: 15px;
+    position: initial !important;
+    right: 0px !important;
+    top: 0 !important;
+    margin-top: 0 !important;
+    display: block !important;
+}
+
+button.hideShowPassword-toggle.hideShowPassword-toggle-hide:focus {
+    border: none !important;
+}
+
+@media screen and (max-width: 425px) {
+    .my-login-page .card-wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .my-login-page .card.fat {
+        padding: 0;
+    }
+    .my-login-page .card.fat .card-body {
+        padding: 15px;
+    }
+}

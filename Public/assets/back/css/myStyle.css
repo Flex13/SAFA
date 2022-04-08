@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.error {
+    color: red;
+    /* font-size: 1rem !important; */
+    width: 100%;
+}
+
+label.form-label {
+    font-weight: 500;
+    color: black;
+}
+
+.form-control {
+    background: none;
+    outline: none;
+    min-height: calc(1.6em + .75rem + 2px) !important;
+    border-radius: 10px;
+    color: black;
+    margin: 0px;
+    border: 1px solid #a9a9a9;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem #4e73df;
+    border: 1px solid #4e73df;
+}
+
+.btn-primary {
+    font-weight: normal;
+    border: none;
+    line-height: 1.5;
+    border-radius: 15px;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    color: #fff !important;
+    background-color: #2d2d9b;
+    padding: 8px;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: black;
+    border: none;
+}
+
+.btn-warning {
+    font-weight: normal;
+    border: none;
+    line-height: 1.5;
+    border-radius: 15px;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    color: black !important;
+    background-color: #EED202;
+    padding: 8px;
+}
+
+.btn-warning:hover {
+    color: #fff !important;
+    background-color: black;
+    border: none;
+}
+
+.btn-danger {
+    font-weight: normal;
+    border: none;
+    line-height: 1.5;
+    border-radius: 15px;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    color: #fff !important;
+    background-color: #D72638;
+    padding: 8px;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: black;
+}
+
+.btn-success {
+    font-weight: normal;
+    border: none;
+    line-height: 1.5;
+    border-radius: 15px;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    color: #fff !important;
+    background-color: #DB0F95;
+    padding: 8px;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: black;
+}
+
+button.hideShowPassword-toggle.hideShowPassword-toggle-show {
+    background-color: transparent;
+    border: none !important;
+    color: #a9a9a9;
+    margin-right: 15px;
+    position: initial !important;
+    right: 0px !important;
+    top: 0 !important;
+    margin-top: 0 !important;
+    display: block !important;
+}
+
+button.hideShowPassword-toggle.hideShowPassword-toggle-hide {
+    background-color: transparent;
+    border: none !important;
+    color: #090a07;
+    font-weight: 500;
+    margin-right: 15px;
+    position: initial !important;
+    right: 0px !important;
+    top: 0 !important;
+    margin-top: 0 !important;
+    display: block !important;
+}
+
+button.hideShowPassword-toggle.hideShowPassword-toggle-hide:focus {
+    border: none !important;
+}
+
+.bg-primary {
+    color: #fff !important;
+    background-color: #921b97 !important;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+}
