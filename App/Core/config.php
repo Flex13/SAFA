@@ -19,9 +19,7 @@ define('DB_HOST', 'localhost');
 
 /* Email Server Variables */
 
-define('SMTP_USERNAME', 'info@safabc.org');
-define('SMTP_PASSWORD', 'v6TN{KUY%k-m');
-define('SECRET_KEY', '04011994Flex15$');
+
 
 
 /*protocal type http or https*/
